@@ -7,13 +7,13 @@ val mainScenario = Scenario {
     state("start") {
         activators {
             regex("/start")
-            intent("Hello")
+            intent("Hey bro")
         }
         action {
             reactions.run {
                 image("https://media.giphy.com/media/ICOgUNjpvO0PC/source.gif")
                 sayRandom(
-                    "Hello! How can I help?",
+                    "Че нада?",
                     "Hi there! How can I help you?"
                 )
                 buttons(
