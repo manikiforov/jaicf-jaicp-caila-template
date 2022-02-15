@@ -14,7 +14,7 @@ val mainScenario = Scenario {
                 image("https://media.giphy.com/media/ICOgUNjpvO0PC/source.gif")
                 sayRandom(
                     "Hello! How can I help?",
-                    "Hi there! How can I help you?"
+                    "Здарова, бандиты"
                 )
                 buttons(
                     "Help me!",
